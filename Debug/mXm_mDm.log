@@ -1,0 +1,4 @@
+﻿  mXm_mDm.cpp
+c:\users\ibrah\source\repos\mxm_mdm\mxm_mdm\mxm_mdm.cpp(110): warning C4101: '_idx': unreferenced local variable
+c:\users\ibrah\source\repos\mxm_mdm\mxm_mdm\mxm_mdm.cpp(111): warning C4101: '_cnt': unreferenced local variable
+  mXm_mDm.vcxproj -> C:\Users\ibrah\source\repos\mXm_mDm\Debug\mXm_mDm.exe
