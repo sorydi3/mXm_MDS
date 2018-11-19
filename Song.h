@@ -3,7 +3,7 @@
 #include<list>
 #include<map>
 #include<list>
-typedef unsigned short ushort;
+typedef int ushort;
 /**
 @file Song.h
 @bried class Song

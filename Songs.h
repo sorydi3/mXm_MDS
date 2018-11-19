@@ -7,6 +7,7 @@
 #include<set>
 #include<list>
 #include"Song.h"
+#include<vector>
 #include<map>
 #include<memory>
 /**
@@ -69,12 +70,14 @@ public:
 	returns an empty list
 	*/
 
-	std::set<std::string> mostFrequentN(ushort n) const;
+	std::set<std::string> themostFrequentN(ushort n) const;
 	/**
 	@brief return the n most frequent world in this set of songs
 	@pre --
 	@post  return the n most frequent words in this set of songs
 	*/
 private:
-
+	std::map<std::string,std::shared_ptr<Song>> _mapSongsO;
+	std::map<std::string, std::shared_ptr<Song>> _mapSongs;
+	std::vector<std::string> _vWords;
 };
